@@ -1,0 +1,54 @@
+:root
+{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple: #564169;
+    --pink: #c59191;
+}
+
+body
+{
+    font-family: monospace;
+    background: var(--custom_background);
+    color: var(--font_color);
+}
+
+li
+{
+    list-style: circle;
+}
+  
+.list
+{
+    list-style: square;
+}
+
+.epic-theme
+{
+    --font_color:var(--pink);
+    --custom_background: var(--purple);
+    --btnBg: var(--pink);
+    --btnFontColor: var(--purple);
+}
+
+.hacker-theme 
+{
+    --font_color:var(--green);
+    --custom_background:var(--black);
+    --btnBg: var(--green);
+    --btnFontColor: var(--black);
+}
+
+.btn
+{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}

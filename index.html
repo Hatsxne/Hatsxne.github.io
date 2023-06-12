@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+     .image-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    body {
+  background-color: pink;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffc0cb; /* pastel pink */
+}
+
+section {
+  padding: 50px 20px;
+  width: 100%; /* Set the section width to 100% */
+  background-color: #ffc0cb; /* pastel pink */
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-item a:hover {
+  color: #ffc0cb; /* pastel pink */
+}
+
+.footer-item i {
+  margin-right: 5px;
+}
+
+.footer-item p {
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo i {
+  margin-right: 5px;
+  color: #ffc0cb; /* pastel pink */
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <i class="fas fa-spa"></i>
+        <span class="spa-name">Zakura's Spa</span>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booknow.html">Book Now</a></li>
+        <li><a href="specialists.html">Our Specialists</a></li>
+        <li><a href="locations.html">Location and Hours</a></li>
+        <li><a href="reviews.html">Customer Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="image-container">
+    <img src="SpaImage.jpg" alt="Spa Image">
+  </div>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-item">
+        <a href="booknow.html"><i class="fas fa-pen"></i>Book Your Experience</a>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>CF Rideau Centre, 50 Rideau St, Ottawa, ON K1N 9J7</p>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-phone"></i>
+        <p>Tel: (613) 333 - 3333</p>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-copyright"></i>
+        <p>2023 ZAKURA'S SPA. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

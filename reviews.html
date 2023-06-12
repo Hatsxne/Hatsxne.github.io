@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+  background-color: pink;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffc0cb; /* pastel pink */
+}
+
+section {
+  padding: 50px 20px;
+  width: 100%; /* Set the section width to 100% */
+  background-color: #ffc0cb; /* pastel pink */
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-item a:hover {
+  color: #ffc0cb; /* pastel pink */
+}
+
+.footer-item i {
+  margin-right: 5px;
+}
+
+.footer-item p {
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo i {
+  margin-right: 5px;
+  color: #ffc0cb; /* pastel pink */
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+      /* Additional custom styles for the image */
+      .image-container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        float: left;
+        height: 600 px; /* Adjust the height as needed */
+      }
+      .image-container img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .text-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        float: right;
+        height: 100px; /* Adjust the height as needed */
+      }
+      .above-image-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        float: right;
+        height: 200px; /* Adjust the height as needed */
+      }
+      .Reviews{
+        margin-top: 70px;
+        margin-bottom: 125px;
+        margin-left: 125px;
+        margin-right: 125px;
+      }
+
+      img {
+        width: 85px;
+        height: 15px;
+      }
+      .quote-title{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+          <a href="index.html">
+            <i class="fas fa-spa" width="27" heigh="24"></i>
+            <span class="spa-name">Zakura's Spa</span>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booknow.html">Book Now</a></li>
+            <li><a href="specialists.html">Our Specialists</a></li>
+            <li><a href="locations.html">Location and Hours</a></li>
+            <li><a href="reviews.html">Customer Reviews</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1 class="quote-title">Customers' Reviews</h1>
+      <div class="Reviews">
+        <div class="quote">
+          <h5 class="quote-header">Maria Kim</h5>
+          <img src="five-star.png" alt="stars" />
+          <p class="quote-desc">
+            "I recently had the most rejuvenating experience at this spa! 
+            From the moment I walked in, I was greeted with warmth and professionalism. 
+            The atmosphere was serene and peaceful, and the staff went above and beyond to ensure my comfort.
+            The treatments were heavenly, and I left feeling completely relaxed and refreshed.
+            I highly recommend this spa to anyone in need of a blissful escape."
+          </p>
+        </div>
+        <div class="quote">
+          <h5 class="quote-header">Michelle Scott</h5>
+          <img src="five-star.png" alt="stars" />
+          <p class="quote-desc">
+            "I had an unforgettable experience at this spa!
+            The staff went above and beyond to ensure that every moment of my visit was exceptional. 
+            The ambiance was serene, and the attention to detail was remarkable. The treatments were heavenly, and I particularly enjoyed the aromatherapy session that left me feeling deeply relaxed.
+            This spa truly knows how to create a haven of tranquility."
+          </p>
+        </div>
+        <div class="quote">
+          <h5 class="quote-header">Sarah Hurdman</h5>
+          <img src="five-star.png" alt="stars" />
+          <p class="quote-desc">
+            "A hidden gem! Skilled therapists, luxurious facilities, and a rejuvenating escape. 
+            Loved every moment there! Lian was amazing!!"
+          </p>
+        </div>
+        <div class="quote">
+          <h5 class="quote-header">Steph Nam</h5>
+          <img src="five-star.png" alt="stars" />
+          <p class="quote-desc">
+            "Heavenly spa experience! From the moment I arrived, I was pampered and treated like royalty. Highly recommended"
+          </p>
+        </div>
+      </div>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-item">
+            <a href="booknow.html"><i class="fas fa-pen"></i>Book Your Experience</a>
+          </div>
+          <div class="footer-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>CF Rideau Centre, 50 Rideau St, Ottawa, ON K1N 9J7</p>
+          </div>
+          <div class="footer-item">
+            <i class="fas fa-phone"></i>
+            <p>Tel: (613) 333 - 3333</p>
+          </div>
+          <div class="footer-item">
+            <i class="fas fa-copyright"></i>
+            <p>2023 ZAKURA'S SPA. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
